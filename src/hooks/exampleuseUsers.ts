@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import userService, { User  } from '../services/user-service';
+import userService, { User  } from '../ExampleServices/user-service';
 import { CanceledError } from 'axios';
 
 const useUsers = () => {

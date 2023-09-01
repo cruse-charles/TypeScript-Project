@@ -1,8 +1,6 @@
 // import axios, { AxiosError, CanceledError } from "axios";
-import { useState, useEffect } from "react";
-import { CanceledError } from "./services/api-client";
-import userService, { User } from "./services/user-service";
-import useUsers from "./hooks/useUsers";
+import userService, { User } from "./ExampleServices/user-service";
+import useUsers from "./hooks/exampleuseUsers";
 
 function App() {
   const { users, error, isLoading, setUsers, setError } = useUsers();
